@@ -1,0 +1,89 @@
+body{
+    background-color: rgba(239, 242, 152, 0.561);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+
+}
+h1,h2{
+text-decoration: underline rebeccapurple;
+    text-align: center;
+}
+.input_section{
+    
+font-size: 24px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+select{
+    font-size: 20px;
+    color: rgb(249, 0, 0);
+text-align: center;
+border: rgb(66, 52, 104) solid none;
+    border-radius: 12px;
+    height: 33px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.input_section label{
+    font-weight: bold;
+    
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.input_section input{
+    font-size:15px;
+    color: red;
+    padding: 10px;
+    margin-right:10px ;
+    border:none;
+    border-radius: 10px;
+}
+.input_section button{
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: rgb(3, 91, 168);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.expenses_list{
+    margin:35px;
+
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 3px solid rgb(15, 52, 52);
+    padding: 10px;
+    text-align: left;
+}
+th{
+    text-align: center;
+    background-color: #b596964f;
+    color: rgb(0, 119, 36);
+}
+tfoot,td{
+    font-weight: bold;
+}
+.delete_btn{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#date_input{
+    font-size: 20px;
+    text-align: center;
+    width:150px;
+}
